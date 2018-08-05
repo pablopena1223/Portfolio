@@ -1,0 +1,21 @@
+#heading{
+    text-align:center;
+    color:red;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contain{
+    display:flex;
+    justify-content:space-around;
+    background-color: black;
+}
+
+.row{
+    color:red;
+}
