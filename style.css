@@ -1,21 +1,63 @@
 #heading{
     text-align:center;
     color:red;
+    margin: 1px;
 }
 
-img{
+#headshot{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
+    border-radius: 40%
 }
 
 .contain{
     display:flex;
     justify-content:space-around;
     background-color: black;
+    margin: 8px;
 }
 
 .row{
     color:red;
+}
+
+body{
+    background-color: #d2b48c;
+}
+
+#porth1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.gallery{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.underGallery{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.thumbnail-image{
+    margin: 50px;
+    border: 5px solid;
+    width: 200px;
+    height: 250px;
+}
+
+.underGallery{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.textUnder{
+    margin: 10px;
+    width: 200px;
 }
