@@ -32,32 +32,33 @@ body{
     font-family: 'Lobster', cursive;
 }
 
-.gallery{
+
+.gallery, .underGallery, .contactSN, .underSN{
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.underGallery{
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
 .thumbnail-image{
-    margin: 50px;
+    margin: 25px;
     border: 5px solid;
-    width: 200px;
+    width: 225px;
     height: 250px;
-}
-
-.underGallery{
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .textUnder{
     margin: 10px;
     width: 200px;
+}
+
+.IMGofSN{
+    margin: 10px;
+    width: 270px;
+    height: 270px;
+}
+
+.textUnderSN{
+    margin: 10px;
+    width: 237px;
 }
