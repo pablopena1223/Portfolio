@@ -60,5 +60,25 @@ body{
 
 .textUnderSN{
     margin: 10px;
-    width: 237px;
+    width: 215px;
+}
+
+.aboutMain{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20%
+    
+}
+
+.leftPane{
+    width:50%;
+}
+
+.rightPane{
+    background-image: url(https://scontent-lga3-1.cdninstagram.com/vp/a8344de4e22b23caab4aa14f9d6e1734/5D1B7D2B/t51.2885-15/sh0.08/e35/p750x750/47691530_220214402193191_7825668663367228345_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 525px;
 }
