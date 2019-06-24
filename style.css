@@ -33,23 +33,33 @@ body{
 }
 
 
-.gallery, .underGallery, .contactSN, .underSN{
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
+.gallery, .contactSN, .underSN, .gallery2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.underGallery, .underGallery2{
+    display: flex;
+    justify-content: center;
 }
 
 
-.thumbnail-image{
-    margin: 25px;
+.thumbnail-image, .thumbnail-image2{
+    margin: 47px;
     border: 5px solid;
     width: 225px;
     height: 250px;
 }
 
+
 .textUnder{
-    margin: 10px;
-    width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.textUnder2{
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .IMGofSN{
@@ -59,8 +69,8 @@ body{
 }
 
 .textUnderSN{
-    margin: 10px;
-    width: 215px;
+    margin: 30px;
+    width: 250px;
 }
 
 .aboutMain{
@@ -69,7 +79,7 @@ body{
     width: 100%;
     justify-content: space-between;
     margin-bottom: 20%
-    
+
 }
 
 .leftPane{
@@ -77,8 +87,8 @@ body{
 }
 
 .rightPane{
-    background-image: url(https://scontent-lga3-1.cdninstagram.com/vp/a8344de4e22b23caab4aa14f9d6e1734/5D1B7D2B/t51.2885-15/sh0.08/e35/p750x750/47691530_220214402193191_7825668663367228345_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com);
+    background-image: url(aboutme.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 525px;
+    width: 411px;
 }
